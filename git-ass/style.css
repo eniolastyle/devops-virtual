@@ -1,0 +1,58 @@
+:root {
+  --trans: all 0.3s ease-in-out;
+}
+
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #222;
+  color: #fff;
+  transition: var(--trans);
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 400px;
+  height: 100vh;
+}
+
+h3 {
+  font-size: 35px;
+  margin-bottom: 23px;
+}
+
+.btn {
+  padding: 0.525rem 1.359rem;
+  font-size: 20px;
+  border-radius: 0.3rem;
+  border: none;
+  outline: none;
+  transition: var(--trans);
+}
+
+.btn:hover {
+  background-color: transparent;
+  border: 1px solid #a8aaae;
+  cursor: pointer;
+  color: #dfe0e2;
+}
+
+.link {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: underline;
+  margin-left: 10px;
+  transition: var(--trans);
+}
+
+.link:hover {
+  color: #a7a9ab;
+}
